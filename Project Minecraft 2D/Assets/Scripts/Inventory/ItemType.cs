@@ -1,0 +1,19 @@
+public enum ItemType
+{
+    None,
+    Dirt,
+    DirtGrass,
+    Stone,
+    TreeLog,
+    TreeLeaves,
+    Grass,
+    Stick,
+    Plank,
+    WoodenPickaxe,
+    WoodenAxe,
+    WoodenSword,
+    CoalOre,
+    IronOre,
+    GoldOre,
+    DiamondOre
+}
