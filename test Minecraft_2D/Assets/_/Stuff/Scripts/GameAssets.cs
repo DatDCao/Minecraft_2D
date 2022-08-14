@@ -25,9 +25,6 @@ public class GameAssets : MonoBehaviour {
         }
     }
 
-
-
-
     public Sprite s_ShootFlash;
     
     public Transform pfSwordSlash;

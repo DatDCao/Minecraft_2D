@@ -249,6 +249,8 @@ public class Player : MonoBehaviour, Enemy.IEnemyTargetable {
 
     public void SetEquipment(Item.ItemType itemType) {
         // Equip Item
+            // test equip item
+            // itemType = Item.ItemType.Sword_1;
         switch (itemType) {
         case Item.ItemType.ArmorNone:   EquipArmorNone();       break;
         case Item.ItemType.Armor_1:     EquipArmor_1();         break;

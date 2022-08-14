@@ -60,14 +60,14 @@
     <Compile Include="Assets\_\Stuff\V_Animation\SaveSystem.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Frame.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\UnitAnimType.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitAnimation.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Anim.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\UnitAnim.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\V_Skeleton_Updater.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\V_Animation.cs" />
-    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitSkeleton.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\UVType.cs" />
     <Compile Include="Assets\_\Stuff\V_Animation\CLZF2.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitAnimation.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\UnitAnim.cs" />
+    <Compile Include="Assets\_\Stuff\V_Animation\V_UnitSkeleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\_\Stuff\V_Animation\V_Animation.asmdef" />
@@ -313,17 +313,35 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>Assets\Plugins\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.18\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="ICSharpCode.NRefactory">
       <HintPath>Library\PackageCache\com.unity.render-pipelines.core@10.9.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
