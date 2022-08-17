@@ -12,7 +12,7 @@ public class InventoryUI : MonoBehaviour
     [SerializeField] private RectTransform mainContent;
     [SerializeField] private RectTransform mainInventory;
 
-    [SerializeField] private int _bottomContentSize = 5;
+    [SerializeField] private int _bottomContentSize = 9;
 
     private bool _isOpen;
     private Dictionary<int, SlotUI> slots;

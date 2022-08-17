@@ -65,6 +65,27 @@ public class PlayerBuilding : MonoBehaviour
             currentSlotIndex = 4;
             inventoryUI.SelectSlot(currentSlotIndex);
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            currentSlotIndex = 5;
+            inventoryUI.SelectSlot(currentSlotIndex);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha7))
+        {
+            currentSlotIndex = 6;
+            inventoryUI.SelectSlot(currentSlotIndex);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha8))
+        {
+            currentSlotIndex = 7;
+            inventoryUI.SelectSlot(currentSlotIndex);
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            currentSlotIndex = 8;
+            inventoryUI.SelectSlot(currentSlotIndex);
+        }
+        
     }
 
     private void DestroyInput(Vector3 mousePosition)

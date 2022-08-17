@@ -16,7 +16,7 @@ public class PlayerCrafting : MonoBehaviour
         if(recipe.IsAbleToCraft(inventory.GetSlotsArray()))
         {
             recipe.RemoveComponents(inventory);
-            Debug.Log("Player Crafting: "+recipe.amount);
+            Debug.Log(recipe.amount);
             inventory.AddItem(recipe.resoultItem, recipe.amount);
         }
     }

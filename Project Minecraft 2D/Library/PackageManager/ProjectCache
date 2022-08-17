@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637958885572729517
+      ticks: 637961313098082229
     m_Hash: 215496261
   m_LockFileStatus:
     m_FilePath: C:/Users/ADMIN/Desktop/Company/Minecraft_2D/Project Minecraft 2D/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637958885572779388
+      ticks: 637961313098112217
     m_Hash: 1573808554
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -2884,6 +2884,7 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
+        - 1.4.3
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -2899,7 +2900,8 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
-        verified: 1.4.2
+        - 1.4.3
+        verified: 1.4.3
       dependencies:
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0

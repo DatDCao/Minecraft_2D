@@ -6,7 +6,7 @@ using DevKacper.Mechanic;
 
 public class Player : MonoBehaviour
 {
-    private const int InventorySize = 25;
+    private const int InventorySize = 36;
 
     public InventoryUI inventoryUI;
     public PlayerInventory inventory;
